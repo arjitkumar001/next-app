@@ -5,6 +5,9 @@ const Nav = () => {
   return (
     <div>
       <ul>
+      <li>
+            <Link href="/login"><span>Login page here</span></Link>
+        </li>
         <li>
             <Link href="/"><span>Home</span></Link>
         </li>
