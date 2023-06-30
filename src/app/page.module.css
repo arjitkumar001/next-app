@@ -12,3 +12,18 @@
 .innercomp{
     background-color: bisque;
 }
+.dashboard{
+    background-color: brown;
+    padding: 20px 30px;
+ 
+}
+.table{
+    border: 1px solid black;
+}
+.products{
+    background-color: antiquewhite;
+}
+.product{
+    background-color: rgb(165, 198, 227);
+
+}
