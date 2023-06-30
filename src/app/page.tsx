@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import style from '../app/page.module.css'
+
 import { useState } from 'react'
 
 interface UserProps {
@@ -28,6 +29,7 @@ const home: React.FC = () => {
       <h1 className={style.heading}>This is home page</h1>
       <p>import image with Image from next/image</p>
       <Image src='/assets/image.jpg' alt='image not found' height={300} width={500} />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="" height={300} width={500} />
 
       <p>Function Call</p>
       <button onClick={() => fruit("apple")}>Fruit</button>
